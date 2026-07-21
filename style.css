@@ -68,15 +68,25 @@ body {
 .operator:hover {
     background-color: #e08300;
 }
-
 .clear {
-    grid-column: span 3;
+    grid-column: span 2;
     background-color: #d4d4d2;
     color: #1c1c1c;
     font-weight: bold;
 }
 
 .clear:hover {
+    background-color: #b5b5b4;
+}
+
+.backspace {
+    background-color: #d4d4d2;
+    color: #1c1c1c;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.backspace:hover {
     background-color: #b5b5b4;
 }
 
